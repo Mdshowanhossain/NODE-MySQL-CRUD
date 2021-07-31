@@ -9,17 +9,6 @@ const DatabaseConfig = {
 
 const connection = mysql.createConnection(DatabaseConfig);
 
-connection.connect((error) => {
-    if (error) {
-        console.log('Connection Failed');
-    } else {
-        console.log('Connection Successful');
-        // insertData(connection);
-        // deleteData(connection);
-        // dataUpdate(connection);
-        selectData(connection);
-    }
-})
 
 const insertData = () => {
 
