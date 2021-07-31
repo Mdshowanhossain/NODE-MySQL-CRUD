@@ -1,17 +1,24 @@
 {
-  "name": "nodeJS",
+  "name": "node-mongo",
   "version": "1.0.0",
   "description": "",
-  "main": "Crud.js",
-  "dependencies": {
-    "mysql": "^2.18.1"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "start": "node Crud.js",
+    "start": "node node-mongo-crud.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mdshowanhossain/NODE-MySQL-CRUD.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mdshowanhossain/NODE-MySQL-CRUD/issues"
+  },
+  "homepage": "https://github.com/Mdshowanhossain/NODE-MySQL-CRUD#readme",
+  "dependencies": {
+    "mongodb": "^4.0.1"
+  }
 }
